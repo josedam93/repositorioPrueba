@@ -16,6 +16,10 @@
         <servlet-name>controlCenso</servlet-name>
         <servlet-class>CONTROLADOR.controlCenso</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>controlBajaVotante</servlet-name>
+        <servlet-class>CONTROLADOR.controlBajaVotante</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>controlAltaVotante</servlet-name>
         <url-pattern>/controlAltaVotante</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>controlCenso</servlet-name>
         <url-pattern>/controlCenso</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>controlBajaVotante</servlet-name>
+        <url-pattern>/controlBajaVotante</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
