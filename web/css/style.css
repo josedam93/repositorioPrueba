@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/cutcube.png);
+}
+form label{
+    width: 100%;
+    color: blue;
+}
+form{
+    padding: 10px;
+    margin-top: 20px;
+}
+form button{
+    margin-left: 15px;
+}
+table{
+    background-color: #FAFAFA;
+}
